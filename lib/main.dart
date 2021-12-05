@@ -12,7 +12,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Container(),
+        body: Center(
+          child: Row(
+            children: [
+              Icon(Icons.home),
+              Container(
+                child: Text("Joseph Madras"),
+              ),
+            ],
+          ),
+        ),
       )
     );
   }
